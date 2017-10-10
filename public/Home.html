@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../favicon.ico">
+
+  <title>Jinguang Guo - Computer Engineering</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="jumbotron.css" rel="stylesheet">
+
+  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+    <div class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Jinguang Guo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="Home.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">Resume<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contacts</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown01">
+              <li><a class="dropdown-item" href="https://www.linkedin.com/in/jinguang-guo-63367a151">My LinkedIn</a></li>
+              <li><a class="dropdown-item" href="https://github.com/Gavin2036">My Github</a></li>
+              <li class="divider"></li>
+              <li><a class="dropdown-item" href="chat.html">Chat with Me</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-3">Greetings from Jinguang Guo!</h1>
+        <p>This is the resume of Jinguang Guo. </p>
+        <p><a class="btn btn-primary btn-lg" href="resume.html" role="button">View my resume &raquo;</a></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>LinkedIn</h2>
+          <p>For more details about my information, such as my research history and my undergraduate experience, please visit my LinkedIn</p>
+          <p><a class="btn btn-default" href="https://www.linkedin.com/in/jinguang-guo-63367a151" role="button">View LinkedIn &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Github</h2>
+          <p>I have worked on different kinds of coding projects and I am familiar with C, C++, Python, and Verilog HDL.</p>
+          <p><a class="btn btn-default" href="https://github.com/Gavin2036" role="button">View GitHub &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Chat with Me</h2>
+          <p>With the FriendlyChat(Powered by Firebase) application within this website, you can reach out to me whenever you need!</p>
+          <p><a class="btn btn-default" href="chat.html" role="button">Chat now &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; Jinguang Guo 2017</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <script src="https://www.gstatic.com/firebasejs/4.5.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyCUDWWbVjz3c5yQuFWQOUGw4hMYQeP9HKo",
+            authDomain: "ec601-hw2-f7238.firebaseapp.com",
+            databaseURL: "https://ec601-hw2-f7238.firebaseio.com",
+            projectId: "ec601-hw2-f7238",
+            storageBucket: "",
+            messagingSenderId: "867114341512"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
