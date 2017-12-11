@@ -1,6 +1,6 @@
 # EC601-HW2-BootstrapWEBapp
 ## Brief Introduction
-This is EC601(Fall 2017) Homework 2 App(WEB) by Jinguang Guo
+This is EC601(Fall 2017) Homework 2 App(WEB) by Jinguang Guo.
 The final finished project link is:
 https://ec601-hw2-f7238.firebaseapp.com/
 
@@ -19,7 +19,7 @@ The point of this homework is:
 2. Learning the fundamentals of application development;
 3. Learning basics of database and client/server interactions using Google Firebase service;
 4. Managing sprints and source code using Github;
-5. Building an application and run it on your phone, PC, and emulator
+5. Building an application and run it on your phone, PC, and emulator.
 
 This WEB-App is based on Bootstrap and utilized in HTML.
 
